@@ -1,31 +1,84 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: josegsuarezg
+repo: suarezsaas-status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: API de la plataforma
+    url: https://api.suarezsaas.com/health
+  - name: API de FuturoGym
+    url: https://api-gym.suarezsaas.com/api/v1/health
+  - name: API de ERP Market
+    url: https://api-erp.suarezsaas.com/api/v1/health
+  - name: FuturoGym
+    url: https://gym.suarezsaas.com
+  - name: ERP Market
+    url: https://erp.suarezsaas.com
+  - name: Consola de administración
+    url: https://admin.suarezsaas.com/login
+  - name: Sitio web
+    url: https://suarezsaas.com
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.suarezsaas.com
+  logoUrl: https://suarezsaas.com/icon.svg
+  faviconSvg: https://suarezsaas.com/icon.svg
+  name: Estado de SuarezSaaS
+  introTitle: "Estado de los servicios de **SuarezSaaS**"
+  introMessage: Disponibilidad de FuturoGym, ERP Market y la plataforma, medida cada 5 minutos.
   navbar:
-    - title: Status
+    - title: Estado
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: suarezsaas.com
+      href: https://suarezsaas.com
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+i18n:
+  activeIncidents: Incidentes activos
+  allSystemsOperational: Todos los sistemas funcionan con normalidad
+  incidentReport: "Incidente #$NUMBER →"
+  activeIncidentSummary: Abierto el $DATE con $POSTS publicaciones
+  incidentTitle: "Incidente #$NUMBER: $TITLE"
+  incidentDetails: Detalle del incidente
+  incidentFixed: Resuelto
+  incidentOngoing: En curso
+  incidentOpenedAt: Abierto
+  incidentClosedAt: Cerrado
+  incidentSubscribe: Suscribirse a novedades
+  incidentViewOnGitHub: Ver en GitHub
+  incidentCommentSummary: Publicado el $DATE por $AUTHOR
+  incidentBack: ← Volver a los incidentes
+  pastIncidents: Incidentes anteriores
+  pastIncidentsResolved: Resuelto en $MINUTES minutos con $POSTS publicaciones
+  liveStatus: Estado actual
+  overallUptime: "Disponibilidad general: $UPTIME"
+  overallUptimeTitle: Disponibilidad general
+  averageResponseTime: "Tiempo de respuesta promedio: $TIMEms"
+  averageResponseTimeTitle: Tiempo de respuesta promedio
+  sevelDayResponseTime: Tiempo de respuesta en 7 días
+  responseTimeMs: Tiempo de respuesta (ms)
+  up: Operativo
+  down: Caído
+  degraded: Degradado
+  ms: ms
+  loading: Cargando
+  navGitHub: GitHub
+  footer: Esta página es [código abierto](https://github.com/$OWNER/$REPO), con [Upptime](https://upptime.js.org)
+  rateLimitExceededTitle: Límite de consultas superado
+  rateLimitExceededIntro: Se superó el límite de consultas por hora a la API de GitHub. Probá de nuevo en un rato.
+  errorTitle: Ocurrió un error
+  errorIntro: No se pudieron cargar los datos de estado. Probá de nuevo en un rato.
+  errorText: Intentá recargar la página.
+  errorHome: Ir al inicio
+  pastScheduledMaintenance: Mantenimientos anteriores
+  scheduledMaintenance: Mantenimiento programado
+  scheduledMaintenanceSummaryStarted: Comenzó el $DATE, durante $DURATION minutos
+  scheduledMaintenanceSummaryStarts: Comienza el $DATE, durante $DURATION minutos
+  startedAt: Comenzó
+  startsAt: Comienza
+  duration: Duración
+  durationMin: $DURATION minutos
+  incidentCompleted: Completado
+  incidentScheduled: Programado
+  duration24H: 24 h
+  duration7D: 7 días
+  duration30D: 30 días
+  duration1Y: 1 año
+  durationAll: Todo
