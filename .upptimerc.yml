@@ -4,18 +4,28 @@ repo: suarezsaas-status
 sites:
   - name: API de la plataforma
     url: https://api.suarezsaas.com/health
+    icon: https://suarezsaas.com/icon.svg
   - name: API de FuturoGym
     url: https://api-gym.suarezsaas.com/api/v1/health
+    icon: https://suarezsaas.com/icon.svg
   - name: API de ERP Market
     url: https://api-erp.suarezsaas.com/api/v1/health
+    icon: https://suarezsaas.com/icon.svg
   - name: FuturoGym
     url: https://gym.suarezsaas.com
+    icon: https://suarezsaas.com/icon.svg
   - name: ERP Market
     url: https://erp.suarezsaas.com
+    icon: https://suarezsaas.com/icon.svg
   - name: Consola de administración
     url: https://admin.suarezsaas.com/login
+    icon: https://suarezsaas.com/icon.svg
   - name: Sitio web
     url: https://suarezsaas.com
+    icon: https://suarezsaas.com/icon.svg
+  - name: Prueba de aviso (temporal)
+    url: https://status.suarezsaas.com/prueba-de-aviso-no-existe
+    icon: https://suarezsaas.com/icon.svg
 
 status-website:
   cname: status.suarezsaas.com
