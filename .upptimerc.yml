@@ -23,9 +23,6 @@ sites:
   - name: Sitio web
     url: https://suarezsaas.com
     icon: https://suarezsaas.com/icon.svg
-  - name: Prueba de aviso (temporal)
-    url: https://status.suarezsaas.com/prueba-de-aviso-no-existe
-    icon: https://suarezsaas.com/icon.svg
 
 status-website:
   cname: status.suarezsaas.com
